@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="img/logo.png" alt="Spotify" srcset="">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best Of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Despacito</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="songItemPlay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Cover Me In Sunshine</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="songItemPlay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Up</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Fake Smile</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Your Power</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">I Can't Fall In Love</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="fa-solid fa-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-2x fa-forward"></i>
+            <i class="fa-solid fa-2x fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-backward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="img/sound.gif" width="18px" alt="" id="gif"> Let Me Love You - Justin Beiber
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/5413f0ca25.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
